@@ -1,8 +1,18 @@
+import { Outlet } from "react-router-dom";
+
 const Home = () => {
     return (
-        <div>
-            hello WRLD
-        </div>
+        <>
+            <header>
+                HEADER
+            </header>
+            <main>
+                <Outlet />
+            </main>
+            <footer>
+                FOOTER
+            </footer>
+        </>
     );
 };
 
