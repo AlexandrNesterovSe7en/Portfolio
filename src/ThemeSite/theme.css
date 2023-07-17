@@ -1,0 +1,30 @@
+:root{
+    --bg-body-color: #FFF;
+    --bg-card-color: #FFF;
+
+    --dark-content: #666666;
+    --solid-heading: #42446E;
+}
+
+:root[data-theme='dark']{
+    --bg-body-color: #191919;
+    --bg-card-color:#363636;
+
+    --dark-content: #A7A7A7;
+    --solid-heading: #CCC;
+}
+
+body{
+    background-color: var(--bg-body-color);
+    transition: background-color 200ms;
+}
+
+h1,h2{
+    color: var(--solid-heading);
+    transition: color 500ms;
+}
+
+p{
+    color: var(--dark-content);
+    transition: color 500ms;
+}
