@@ -1,0 +1,9 @@
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    flex: 1 1 0;
+    max-width: 609px;
+}

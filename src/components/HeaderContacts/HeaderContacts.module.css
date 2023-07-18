@@ -1,0 +1,7 @@
+.link_SVG:nth-child(n+2){
+    margin-left: 20px;
+}
+
+.link_contacts{
+    max-height: 30px;
+}

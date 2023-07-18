@@ -1,0 +1,10 @@
+.contactSVG {
+    fill: var(--dark-content);
+    width: 30px;
+    height: 30px;
+}
+
+.contactSVG:hover {
+    fill: url(#MyGradient);
+
+}

@@ -24,7 +24,6 @@ h1,h2{
     transition: color 500ms;
 }
 
-p{
-    color: var(--dark-content);
+p, a{
     transition: color 500ms;
 }

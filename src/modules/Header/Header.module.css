@@ -1,0 +1,17 @@
+.container_path{
+    margin-left: auto;
+    flex: 1 1 0;
+    display: flex;
+    max-width: calc(1096px - 306px);
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header{
+    display: flex !important;
+    padding-left: 177px;
+    padding-right: 230px;
+    padding-top: 49px;
+}
+.check{
+    width: 97px;
+}

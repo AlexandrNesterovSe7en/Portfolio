@@ -1,0 +1,17 @@
+.logo {
+    position: relative;
+}
+
+.logo::before {
+    content: 'nesterov';
+    position: absolute;
+    bottom: 5px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px;
+    font-family: 'DM sans';
+    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
