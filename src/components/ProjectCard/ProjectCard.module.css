@@ -5,6 +5,9 @@
     overflow: hidden;
     background-color: var(--bg-card-color);
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .preview{
     width: 100%;
@@ -38,7 +41,9 @@
 }
 .containerWrapper__Padding{
     padding: 27px 31px 25px 28px;
-
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 .descriptionCard{
     font-weight: 300;
@@ -78,4 +83,7 @@
 .textLink{
     color: var(--black-white-colorTheme);
     text-decoration: underline;
+}
+.plug{
+    flex-grow: 1;
 }

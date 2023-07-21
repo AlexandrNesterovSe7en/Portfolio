@@ -11,6 +11,7 @@ const ProjectCard = ({ContentCard}) => {
             <div className={cl.containerWrapper__Padding}>
                 <TextP className={cl.titleCard}>{ContentCard?.tableText}</TextP>
                 <TextP className={cl.descriptionCard}>{ContentCard?.description}</TextP>
+                <div className={cl.plug}></div>
                 <TextP className={cl.descriptionUseToll}><span>Tech stack :</span> {ContentCard?.techList}</TextP>
                 <div className={cl.container_link}>
                     <a href={ContentCard?.linkLivePreview} target='_blank' rel="noreferrer">
