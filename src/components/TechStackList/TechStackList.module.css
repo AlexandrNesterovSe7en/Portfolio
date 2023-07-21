@@ -1,0 +1,19 @@
+.gitHub {
+    width: 88px;
+    height: 88px;
+    fill: var(--black-white-colorTheme);
+    pointer-events: none;
+}
+
+.containerListTech {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1215px;
+    margin: 140px auto 0px auto;
+    flex-wrap: wrap;
+}
+.break{
+    width: 100%;
+    height: 80px;
+}

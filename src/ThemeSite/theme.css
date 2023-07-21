@@ -4,19 +4,24 @@
 
     --dark-content: #666666;
     --solid-heading: #42446E;
+    --black-white-colorTheme: #000;
+    --solid-heading-dark-mode: #000;
 }
 
 :root[data-theme='dark']{
+
     --bg-body-color: #191919;
     --bg-card-color:#363636;
 
     --dark-content: #A7A7A7;
     --solid-heading: #CCC;
+    --black-white-colorTheme: #FFF;
+    --solid-heading-dark-mode: #CCC;
 }
 
 body{
     background-color: var(--bg-body-color);
-    transition: background-color 200ms;
+    transition: background-color 400ms;
 }
 
 h1,h2{

@@ -1,5 +1,6 @@
 import ErrorPage from "../../pages/ErrorPage/ErrorPage";
 import Home from "../../pages/Home/Home";
+import HomeContentPage from "../../pages/HomeContentPage/HomeContentPage";
 
 
 const HomeRoute = {
@@ -9,7 +10,7 @@ const HomeRoute = {
     children: [
         {
             path: '/',
-            element: <h1>children</h1>
+            element: <HomeContentPage />
         }
     ]
 }

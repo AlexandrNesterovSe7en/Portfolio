@@ -1,0 +1,15 @@
+.containerWrapper{
+    margin-top: 220px;
+}
+.containerProjectsList{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1218px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.containerProjectsList > div{
+    margin-top: 62px;
+}

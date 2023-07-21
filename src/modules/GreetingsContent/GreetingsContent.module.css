@@ -1,0 +1,9 @@
+.containerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 177px;
+    padding-right: 190px;
+    height: 380px;
+    padding-top: 19px;
+    align-items: center;
+}
