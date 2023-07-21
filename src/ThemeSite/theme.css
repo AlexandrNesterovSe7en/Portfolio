@@ -4,6 +4,7 @@
 
     --dark-content: #666666;
     --solid-heading: #42446E;
+    --solid-logo: #42446E;
     --black-white-colorTheme: #000;
     --solid-heading-dark-mode: #000;
 }
@@ -15,6 +16,7 @@
 
     --dark-content: #A7A7A7;
     --solid-heading: #CCC;
+    --solid-logo: #a7a7a7;
     --black-white-colorTheme: #FFF;
     --solid-heading-dark-mode: #CCC;
 }

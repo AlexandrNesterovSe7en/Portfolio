@@ -10,7 +10,7 @@ const Projects = () => {
             <div className={cl.containerProjectsList}>
                 {ProjectCardsInfo.map((item, index) => {
                     if (index > 5) {
-                        return <></>
+                        return false;
                     }
                     return <ProjectCard key={item.key} ContentCard={item} />
                 })}
