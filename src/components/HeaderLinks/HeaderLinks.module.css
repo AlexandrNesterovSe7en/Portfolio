@@ -1,6 +1,7 @@
 .links {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     line-height: 26px;

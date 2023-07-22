@@ -1,0 +1,28 @@
+.button{
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+}
+.button div{
+    background-color: var(--dark-content);
+    height: 6px;
+    position: relative;
+}
+.button div::after{
+    content: '';
+    background-color: var(--dark-content);
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    top: -12px;
+    left: 0;
+}
+.button div::before{
+    content: '';
+    background-color: var(--dark-content);
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}

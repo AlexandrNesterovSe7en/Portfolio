@@ -8,15 +8,16 @@ import VScodeSVG from "../../UI/SVG/VScodeSVG/VScodeSVG";
 import GitHubSVG from '../../UI/SVG/GitHubSVG/GitHubSVG';
 
 import cl from './TechStackList.module.css';
+import clAdaptive from '../../adaptiveCSS/HomePage/HomePage.module.css'
 
 const TechStackList = () => {
     return (
-        <div className={cl.containerListTech}>
+        <div className={`${cl.containerListTech} ${clAdaptive.containerListTech__adaptive}`}>
             <HtmlSVG />
             <CssSvg />
             <JsSVG />
             <ReactSVG />
-            <div className={cl.break}></div>
+            <div className={`${cl.break} ${clAdaptive.break_TechStackList__adaptive}`}></div>
             <SassSVG />
             <GitSVG />
             <VScodeSVG />

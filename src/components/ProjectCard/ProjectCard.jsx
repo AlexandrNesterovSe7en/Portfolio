@@ -1,9 +1,10 @@
 import TextP from '../../UI/TextP/TextP';
 import cl from './ProjectCard.module.css';
+import clAdaptive from '../../adaptiveCSS/HomePage/HomePage.module.css';
 
 const ProjectCard = ({ContentCard}) => {
     return (
-        <div className={cl.containerWrapper}>
+        <div className={`${cl.containerWrapper} ${clAdaptive.containerWrapper_ProjectCard__adaptive}`}>
             <div className={cl.preview}>
                 <img src={ContentCard?.imgSrc} alt={ContentCard?.imgAlt} />
                 <img className={cl.imgBacground} src={ContentCard?.imgSrc} alt={ContentCard?.imgAlt} />

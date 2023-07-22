@@ -1,9 +1,10 @@
 import MyLink from "../../UI/Link/MyLink";
 import cl from './HeaderLinks.module.css';
+import clAdaptive from '../../adaptiveCSS/HomePage/HomePage.module.css';
 
-const HeaderLink = () => {
+const HeaderLink = ({className}) => {
     return (
-        <div className={cl.links}>
+        <div className={`${cl.links} ${className} ${clAdaptive.containerLinks_HeaderLink__adaptive}`}>
             <MyLink to='/'>Home</MyLink>
             <MyLink to='/about'>About</MyLink>
             <MyLink to='/tech-stack'>Tech Stack</MyLink>
