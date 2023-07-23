@@ -3,12 +3,16 @@ import cl from './ErrorPage.module.css';
 
 const ErrorPage = () => {
     return (
-        <div className={cl.container_wrapper}>
+        <>
             <Header />
-            <h1>
-                Error Page
-            </h1>
-        </div>
+            <div className={cl.container_wrapper}>
+                <h1>
+                    Error Page: 404
+                    <br />
+                    ведутся работы, скоро страница будет доступна
+                </h1>
+            </div>
+        </>
     );
 };
 
