@@ -6,10 +6,11 @@ import clAdaptive from '../../adaptiveCSS/HomePage/HomePage.module.css';
 import useIsBurger from "../../Hooks/useChangeIsBurger";
 import ButtonOpenMenu from "../../components/ButtonOpenMenu/ButtonOpenMenu";
 import { useRef } from "react";
+import SwitcherDarkMode from "../../components/SwitcherDarkMode/SwitcherDarkMode";
 
 
 const Header = () => {
-    const isBurger = useIsBurger(1000);
+    const isBurger = useIsBurger(1170);
     const openMenu = useRef(null);
 
     function onClickToggleMenu(e) {
@@ -26,20 +27,12 @@ const Header = () => {
         }
     }
 
-    function handler () {
-        if (document.documentElement.dataset.theme !== 'dark') {
-            document.documentElement.dataset.theme = 'dark'
-        } else {
-            document.documentElement.dataset.theme = ''
-        }
-    }
-
     return (
         <header className={`${cl.header} ${clAdaptive.header}`}>
             <div className={cl.check}>
                 <Logo />
             </div>
-            <button className={cl.check} onClick={handler}>dark | light</button>
+            <SwitcherDarkMode />
             {
                 isBurger
                     ?

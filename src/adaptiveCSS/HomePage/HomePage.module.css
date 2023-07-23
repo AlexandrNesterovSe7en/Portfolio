@@ -9,7 +9,7 @@
 /* -------- */
 
 /* width 1310px */
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: 1450px) {
     .header {
         padding-right: 20px !important;
         padding-left: 20px !important;
@@ -40,7 +40,7 @@
 /* -------- */
 
 /* width 1000px */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1170px) {
     .authorBuilt__adaptive {
         position: absolute;
         bottom: 10% !important;

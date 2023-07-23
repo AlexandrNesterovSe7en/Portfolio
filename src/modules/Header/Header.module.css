@@ -14,10 +14,6 @@
     padding-top: 49px;
 }
 
-.check {
-    width: 97px;
-}
-
 .burger_links {
     flex-direction: column;
     font-size: 30px !important;
