@@ -1,31 +1,33 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6e8c6f8b.css",
-    "main.js": "/Portfolio/static/js/main.efb34e49.js",
-    "static/css/946.b67a2aa4.chunk.css": "/Portfolio/static/css/946.b67a2aa4.chunk.css",
-    "static/js/946.945e5dad.chunk.js": "/Portfolio/static/js/946.945e5dad.chunk.js",
+    "main.js": "/Portfolio/static/js/main.a2d1eeaa.js",
+    "static/css/503.81d98c8f.chunk.css": "/Portfolio/static/css/503.81d98c8f.chunk.css",
+    "static/js/503.051cf2a1.chunk.js": "/Portfolio/static/js/503.051cf2a1.chunk.js",
+    "static/media/video1.mp4": "/Portfolio/static/media/video1.01d0f047c0f60884e4eb.mp4",
+    "static/media/video2.mp4": "/Portfolio/static/media/video2.b9d48f8e14366fb02a39.mp4",
+    "static/media/a.wav": "/Portfolio/static/media/a.205bc4b4d690985b6494.wav",
+    "static/media/3.jpg": "/Portfolio/static/media/3.bee6113bdb4411c9baea.jpg",
+    "static/media/5.jpg": "/Portfolio/static/media/5.e31fbd0d5fe6aaeb8d41.jpg",
+    "static/media/2.jpg": "/Portfolio/static/media/2.f69f88ec94947afc64a0.jpg",
+    "static/media/4.jpg": "/Portfolio/static/media/4.a5769c5ea910cc998614.jpg",
     "static/media/slider.jpg": "/Portfolio/static/media/slider.63f1ee52c3aa765f1428.jpg",
-    "static/media/statham5.jpg": "/Portfolio/static/media/statham5.018fa5b2731bd33e068e.jpg",
-    "static/media/statham6.jpg": "/Portfolio/static/media/statham6.b5d8aced1f16f7791d6e.jpg",
-    "static/media/statham3.jpg": "/Portfolio/static/media/statham3.7b082f446a861bafa8a0.jpg",
     "static/media/adaptiveSite.jpg": "/Portfolio/static/media/adaptiveSite.551037002f5cc7244767.jpg",
     "static/media/pagination.jpg": "/Portfolio/static/media/pagination.3eaeef139a579272408f.jpg",
-    "static/media/statham1.jpg": "/Portfolio/static/media/statham1.80bb49599a70aa3f8bd7.jpg",
-    "static/media/statham4.jpg": "/Portfolio/static/media/statham4.aa5fa0bd2642849aed81.jpg",
+    "static/media/QHOY8myzYrg.jpg": "/Portfolio/static/media/QHOY8myzYrg.e2a4205c0c6073673538.jpg",
     "static/media/shopShoes.jpg": "/Portfolio/static/media/shopShoes.57b7573eee86f696b1bd.jpg",
     "static/media/3dPyramid.jpg": "/Portfolio/static/media/3dPyramid.ed04a610fc600db8a1a7.jpg",
-    "static/media/statham2.jpg": "/Portfolio/static/media/statham2.d20953d01f7f805a2b31.jpg",
     "static/media/avatar.jpg": "/Portfolio/static/media/avatar.6d7ae88130540eada227.jpg",
     "static/media/SnakeGame.jpg": "/Portfolio/static/media/SnakeGame.38b81b87565f8aafbe64.jpg",
     "static/media/DragnDrop.jpg": "/Portfolio/static/media/DragnDrop.ecb1980a9ee050cdbcc4.jpg",
     "index.html": "/Portfolio/index.html",
     "main.6e8c6f8b.css.map": "/Portfolio/static/css/main.6e8c6f8b.css.map",
-    "main.efb34e49.js.map": "/Portfolio/static/js/main.efb34e49.js.map",
-    "946.b67a2aa4.chunk.css.map": "/Portfolio/static/css/946.b67a2aa4.chunk.css.map",
-    "946.945e5dad.chunk.js.map": "/Portfolio/static/js/946.945e5dad.chunk.js.map"
+    "main.a2d1eeaa.js.map": "/Portfolio/static/js/main.a2d1eeaa.js.map",
+    "503.81d98c8f.chunk.css.map": "/Portfolio/static/css/503.81d98c8f.chunk.css.map",
+    "503.051cf2a1.chunk.js.map": "/Portfolio/static/js/503.051cf2a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8c6f8b.css",
-    "static/js/main.efb34e49.js"
+    "static/js/main.a2d1eeaa.js"
   ]
 }
