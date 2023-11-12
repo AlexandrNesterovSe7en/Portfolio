@@ -5,16 +5,28 @@ import Pyramid3D from '../../UI/ProjectsIMG/3dPyramid.jpg';
 import DragonDrop from '../../UI/ProjectsIMG/DragnDrop.jpg';
 import ShopShoes from '../../UI/ProjectsIMG/shopShoes.jpg';
 import slider from '../../UI/ProjectsIMG/slider.jpg'
+import Scroll_3D from '../../pages/Scroll_3DPage/QHOY8myzYrg.jpg';
 
 const ProjectCardsInfo = [
+    {
+        imgSrc: Scroll_3D,
+        imgAlt: 'Scroll_3D',
+        tableText: 'Scroll_3D',
+        description: 'I am use SPA, lazy loading (spliting js file on chunks), Karoche kostil za den\'',
+        techList: 'HTML, CSS, JS, react router, lazy load, SPA',
+        linkLivePreview: 'https://zxcpapashazxc.github.io/Portfolio/#/Scroll_3D',
+        linkViewCode: 'https://zxcpapashazxc.github.io/Portfolio/#/Scroll_3D',
+        key: 'Scroll_3D',
+        SPA: true,
+    },
     {
         imgSrc: SnakeGame,
         imgAlt: 'SnakeGame',
         tableText: 'Snake Game',
         description: 'I made this game using grid css, also worked with storage to record high score',
         techList: 'HTML, CSS, JS',
-        linkLivePreview: '',
-        linkViewCode: '',
+        linkLivePreview: 'https://zxcpapashazxc.github.io/SnakeGame/',
+        linkViewCode: 'https://github.com/zxcPAPASHAzxc/SnakeGame',
         key: 'SnakeGame',
     },
     {

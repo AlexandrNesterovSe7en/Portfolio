@@ -10,9 +10,9 @@ const HomeRoute = {
     children: [
         {
             path: '/',
-            element: <HomeContentPage />
+            element: <HomeContentPage />,
         }
     ]
 }
 
-export {HomeRoute}
+export { HomeRoute }
