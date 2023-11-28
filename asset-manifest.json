@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6e8c6f8b.css",
-    "main.js": "/Portfolio/static/js/main.a2d1eeaa.js",
+    "main.css": "/Portfolio/static/css/main.39c4f83e.css",
+    "main.js": "/Portfolio/static/js/main.76dd7ed7.js",
     "static/css/503.81d98c8f.chunk.css": "/Portfolio/static/css/503.81d98c8f.chunk.css",
-    "static/js/503.051cf2a1.chunk.js": "/Portfolio/static/js/503.051cf2a1.chunk.js",
+    "static/js/503.384ed710.chunk.js": "/Portfolio/static/js/503.384ed710.chunk.js",
     "static/media/video1.mp4": "/Portfolio/static/media/video1.01d0f047c0f60884e4eb.mp4",
     "static/media/video2.mp4": "/Portfolio/static/media/video2.b9d48f8e14366fb02a39.mp4",
     "static/media/a.wav": "/Portfolio/static/media/a.205bc4b4d690985b6494.wav",
@@ -21,13 +21,13 @@
     "static/media/SnakeGame.jpg": "/Portfolio/static/media/SnakeGame.38b81b87565f8aafbe64.jpg",
     "static/media/DragnDrop.jpg": "/Portfolio/static/media/DragnDrop.ecb1980a9ee050cdbcc4.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.6e8c6f8b.css.map": "/Portfolio/static/css/main.6e8c6f8b.css.map",
-    "main.a2d1eeaa.js.map": "/Portfolio/static/js/main.a2d1eeaa.js.map",
+    "main.39c4f83e.css.map": "/Portfolio/static/css/main.39c4f83e.css.map",
+    "main.76dd7ed7.js.map": "/Portfolio/static/js/main.76dd7ed7.js.map",
     "503.81d98c8f.chunk.css.map": "/Portfolio/static/css/503.81d98c8f.chunk.css.map",
-    "503.051cf2a1.chunk.js.map": "/Portfolio/static/js/503.051cf2a1.chunk.js.map"
+    "503.384ed710.chunk.js.map": "/Portfolio/static/js/503.384ed710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e8c6f8b.css",
-    "static/js/main.a2d1eeaa.js"
+    "static/css/main.39c4f83e.css",
+    "static/js/main.76dd7ed7.js"
   ]
 }
