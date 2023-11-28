@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.chatWindow{
+    margin-top: 50px;
+    width: 100%;
+}
+.img{
+    width: 40px;
+}
+.currentUser, .ownerUser{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;    
+}
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    word-break: break-word;
+}
+.userName{
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+    text-overflow: ellipsis;
+    width: calc(100% - 40px);
+}
+.currentUser{
+    background-color: #363636;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.ownerUser{
+    background-color: #000;
+}
+.currentUser .img{
+    order: 1;
+}
+.textArea{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 90vw;
+}
+.area{
+    width: 80vw;
+    font-size: 18px;
+}
+.button{
+    background-color: black;
+    padding: 5px;
+    width: 55px;
+}
+.button:hover{
+    background-color: #fff;
+}

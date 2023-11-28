@@ -5,6 +5,7 @@ import './styleFonts.css';
 import { getAuth } from 'firebase/auth';
 import { initializeApp } from 'firebase/app';
 import { createContext } from 'react';
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyDJgwaIuj48uFuiOE78PhfvOsKVtoFDBFM",
@@ -17,6 +18,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 const auth = getAuth();
 
@@ -26,7 +28,7 @@ export const Context = createContext(null);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Context.Provider value={{auth}}>
+    <Context.Provider value={{ auth, db }}>
         <App />
     </Context.Provider>
 );
